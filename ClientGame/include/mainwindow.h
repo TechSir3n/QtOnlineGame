@@ -28,8 +28,6 @@ public:
     void SetUpClient();
     void setButtons();
 
-
-
 public:
     void setUpGame();
 
@@ -55,7 +53,6 @@ public slots:
     void  SetNamePlayers();
 
 
-
 private slots:
     void on_firstButton_clicked();
 
@@ -74,6 +71,7 @@ private slots:
     void on_eigtinth_clicked();
 
     void on_nineth_clicked();
+    
 
 private:
     QTcpSocket* socket_client{nullptr};
